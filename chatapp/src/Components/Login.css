@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+input{
+    margin: 20px;
+    padding: 5px;
+    width: 250px;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: inherit;
+    color: white;
+    border: 2px solid #d9d9d9;
+    border-radius: 5px;
+    transition: 0.2s ease;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    box-sizing: inherit;
+    box-position: absolute;
+    max-width: 600px;
+    margin: 30px auto;
+    display: flex;
+    font-weight: 800;
+    font-family: 'Fira Sans', sans-serif, Arial;
+    font-size: large;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    border-radius: 10px;
+    height: 70vh;
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(45deg, #7e0bce, rgb(255, 255, 255));
+
+
+}
+body {
+    background-color: hsla(278, 78%, 40%, 0.98);
+    background-image: radial-gradient(650px circle at 0% 0%,
+    hsl(219, 44%, 14%) 15%,
+    hsl(219, 91%, 13%) 35%,
+
+    transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+            hsl(219, 93%, 17%) 15%,
+            hsl(278, 93%, 16%) 35%,
+
+            transparent 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
